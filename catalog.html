@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Техномарт > Каталог</title>
+    <link rel="stylesheet" href="style-catalog.css">
+  </head>
+  <body>
+
+<header>
+  <!--Section 1. Top Panel-->
+  <section class="header-top-bar">
+      <a class="logo-button" href="#">ТЕХНОМАРТ</a>
+      <div>
+        <img src="#" lable="sprite-search">
+        <input type="search" name="search" placeholder="Поиск:">
+    </div>
+      <div>
+        <img src="#" lable="sprite-bookmark">
+        <label>Закладки:</label>
+        <script class="bookmarks-count"></script>
+      </div>
+      <div>
+          <img src="#" lable="sprite-basket">
+          <label>Корзина:</label>
+          <script class="basket-count"></script>
+        </div>      
+      <button type="button">Оформить заказ</button>
+  </section>
+
+  <!--Section 2. Header Info-->
+  <section class="header-info">
+    <p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
+      <div>
+        <span><img src="#" lable="sprite-phone"> +7(812)555-05-55</span>
+        <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+      </div>
+      <div>
+        <button type="button"><img src="#" lable="sprite-profile">USER NAME<img src="#" lable="sprite-out"></button>
+        <a href="#" lable="Orders">Мои заказы</a>
+        <a href="#" lable="Profile">Личный кабинет</a>
+      </div>
+  </section>
+
+  <!--Section 3. Header Navigation-->
+  <nav class="header-nav">
+    <ul>
+      <li><a href="#">Главная</a></li>
+      <li><a href="#">Компания</a></li>
+      <li><a href="#">Каталог</a></li>  
+      <li><a href="#">Новости</a></li>
+      <li><a href="#">Спецпредложения</a></li>
+      <li><a href="#">Доставка</a></li>
+      <li><a href="#">Контакты</a></li>
+    </ul>
+  </nav>
+
+</header>
+
+<main>
+  <!--Section 4. Navigation-->
+
+
+
+
+  <!--Section 5. Sidebar-->
+  <aside>
+    <div class="filter"><p>Фильтр:</p></div>
+    <div class="price">
+          <h3>Цена:</h3>
+          <input type="range" min="0" max="30000">
+          <input type="number" lable="min-price">
+          <input type="number" lable="max-price">
+    </div>
+    <div class="suppliers">
+        <input type="checkbox" lable="BOSH" value="BOSH" active>
+        <input type="checkbox" lable="INTERSKOL" value="Интерскол">
+        <input type="checkbox" lable="MAKITA" value="MAKITA" active>
+        <input type="checkbox" lable="DEWALT" value="DEWALT">
+        <input type="checkbox" lable="HITACHI" value="HITACHI">
+    </div>
+    <div class="suppliers">
+        <input type="radio" lable="Battery" value="Аккумуляторы" active>
+        <input type="radio" lable="AC" value="Сетевые">
+    </div>
+        <input type="submit" lable="Show" value="Показать">
+    </div>
+
+
+  </aside>
+
+  <!--Section 6. Items-->
+  <section class="Sort"></section>
+  <section class="Items"></section>
+  <nav class="pages"></nav>
+
+  <!--Section 7. Info-->
+  <section class="Info">
+    <h2>ПАРА СЛОВ О ПЕРФОРАТОРАХ</h2>
+    <p>Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p>
+  </section>
+
+</main>
+
+<footer>
+  <!--Section 8. Footer Info-->
+  <section class="footer-info">
+    <div>
+      <a class="logo-button" href="#">ТЕХНОМАРТ</a>
+      <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 <br> +7(812)555-05-55</p>
+   </div>
+   <nav>
+     <ul>
+       <li>Компания</li>
+       <li>Новости</li>
+       <li>Каталог</li>
+       <li>Доставка</li>
+       <li>Контакты</li>
+       <li>Материалы</li>
+       <li>Техника</li>
+       <li>Инструменты</li>
+       <li>Спецпредложения</li>
+     </ul>
+   </nav>
+  </section>
+
+  <!--Section 9. Bottom Panel-->
+  <section class="footer-bottom-bar">
+    <p>© 2010–2019 Компания «Техномарт»<br> Все права защищены</p>
+    <div>
+      <a href="#" lable="VK"><img src="#"></a>
+      <a href="#" lable="FB"><img src="#"></a>
+      <a href="#" lable="Inst"><img src="#"></a>
+    </div>
+
+    <p>Обратная связь: <br>
+    <a href="#">mail@htmlacadely.ru</a></p>
+
+    <p>Разработано - <br>
+      <a href="#">htmlacadely.ru</a></p>
+  </section>
+</footer>
+
+  </body>
+</html>

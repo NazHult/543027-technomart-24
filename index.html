@@ -75,7 +75,6 @@
         <a href="catalog.html">Открыть каталог</a>
       </div>
 
-      
       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
       <a class="next" onclick="plusSlides(1)">&#10095;</a>
       </div>
@@ -86,10 +85,7 @@
       </div>
 
       <script src="js/slider_js.js"></script>
-      
-    
-
-
+      <!--Slider-->
 
     <div class="discounts">
         <h3>Скидки 50%</h3> 
@@ -107,10 +103,10 @@
     <h2>ПОПУЛЯРНЫЕ ТОВАРЫ:</h2>
     <a href="#">Все популярные товары</a>
   </div>
-  <ul> <!-- Lection 2 Time 1:14:00. "Why use ol?"-->
+  <ul>
     <li>
       <article>
-        <img src="#" alt="">
+        <img src="img/png/perforators/Perforator_1.png" alt="Перфоротор BFG 9000" style="width: 218px; height: 170px;">
         <div class="item-hover">
             <a href="#">Купить</a>
             <button type="button">В Закладки</button>
@@ -125,7 +121,7 @@
 
     <li>
       <article>
-        <img src="#" alt="">
+        <img src="img/png/perforators/Perforator_2.png" alt="Перфоротор BFG 3000" style="width: 218px; height: 170px;">
         <div class="item-hover">
             <a href="#">Купить</a>
             <button type="button">В Закладки</button>
@@ -140,7 +136,7 @@
 
     <li>
       <article>
-          <img src="#" alt="">
+        <img src="img/png/perforators/Perforator_3.png" alt="Перфоротор BFG 6000" style="width: 218px; height: 170px;">
           <div class="item-hover">
               <a href="#">Купить</a>
               <button type="button">В Закладки</button>
@@ -155,7 +151,7 @@
 
     <li>
         <article>
-          <img src="#" alt="">
+          <img src="img/png/perforators/Perforator_4.png" alt="Перфоротор BFG 2000" style="width: 218px; height: 170px;">
           <div class="item-hover">
             <a href="#">Купить</a>
             <button type="button">В Закладки</button>
@@ -176,14 +172,14 @@
     <a href="#">Все производители</a>
   </div>
   <ul>
-    <li><img src="#" alt="BOSCH"></li>
-    <li><img src="#" alt="Makita"></li>
-    <li><img src="#" alt="DeWalt"></li>
-    <li><img src="#" alt="Interskol"></li>
-    <li><img src="#" alt="Hitachi"></li>
-    <li><img src="#" alt="LG"></li>
-    <li><img src="#" alt="AEG"></li>
-    <li><img src="#" alt="Metabo"></li>
+    <li><img src="img/jpg/suppliers/bosch.jpg" style="width: 126px; height: 37px;" alt="BOSCH"></li>
+    <li><img src="img/jpg/suppliers/makita.jpg" style="width: 123px; height: 40px;" alt="Makita"></li>
+    <li><img src="img/jpg/suppliers/dewalt.jpg" style="width: 146px; height: 44px;" alt="DeWalt"></li>
+    <li><img src="img/jpg/suppliers/interscol.jpg" style="width: 200px; height: 88px;" alt="Interscol"></li>
+    <li><img src="img/jpg/suppliers/hitachi.jpg" style="width: 169px; height: 31px;" alt="Hitachi"></li>
+    <li><img src="img/jpg/suppliers/lg.jpg" style="width: 121px; height: 73px;" alt="LG"></li>
+    <li><img src="img/jpg/suppliers/aeg.jpg" style="width: 151px; height: 96px;" alt="AEG"></li>
+    <li><img src="img/jpg/suppliers/metabo.jpg" style="width: 204px; height: 69px;" alt="Metabo"></li>
   </ul>  
 </section>
 
@@ -200,17 +196,25 @@
       <li>Кредит</li>
     </ul>
 
-    <div>
-      <h3>Доставка</h3>
+    <ul>
+      <li>
+        <h3>Доставка</h3>
         <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж!</p>
-      <h3>Гарантия</h3>
+        <img src="img/png/service/car.png" style="width: 468px; height: 261px;" alt="delivery-logo">
+      </li>
+      <li>
+        <h3>Гарантия</h3>
         <p>Если купленный у нас товар поломается или заискрит, а также в случае пожара, спровоцированного его возгаранием,  вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый. Дом уж восстановите как-нибудь сами.</p>
-      <h3>Кредит</h3>
+        <img src="img/png/service/guarantees.png" style="width: 468px; height: 261px;" alt="guarantees-logo">
+      </li>
+      <li>
+        <h3>Кредит</h3>
         <p>Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.</p>
-    </div>
+        <img src="img/png/service/credit.png" style="width: 468px; height: 261px;" alt="credit-logo">
+      </li>
+    </ul>
   </div>
 
-  <img src="#" alt="delivery-car">
 </section>
 
   <!--Section 8. Contacts-->
@@ -224,13 +228,13 @@
         <li>Автотрейдинг</li>
         <li>ЖелДопЭкспедиция</li>
       </ul>
-      <a href="#">Подробнее о компании</a>
+      <a href="#" area-lable="Узнать больше о компании">Подробнее о компании</a>
     </div>
     <div>
       <h2>КОНТАКТЫ</h2>
       <p>Вы можете забрать товар сами, заехав в наш офис:</p>
-      <img src="#" alt="map">
-      <a href="#">Заблудились? Напишите нам!</a>
+      <img src="img/jpg/mini_map.jpg" alt="map">
+      <a href="#" area-lable="Cвязатся с нами">Заблудились? Напишите нам!</a>
     </div>
   </section>
 </main>
@@ -242,15 +246,15 @@
     <div>
       <a href="#">ТЕХНОМАРТ</a>
       <ul>
-          <li><a href="#">Компания</a></li>
-          <li><a href="#">Новости</a></li>
-          <li><a href="#">Каталог</a></li>
+          <li><a href="html/company.html">Компания</a></li>
+          <li><a href="html/news.html">Новости</a></li>
+          <li><a href="html/catalog.html">Каталог</a></li>
           <li><a href="#">Доставка</a></li>
           <li><a href="#">Контакты</a></li>
        </ul>
    </div>
    <div>
-    <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 <br> +7(812)555-05-55</p>
+    <addr>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 <br> +7(812)555-05-55</addr>
     <nav>
       <ul>
           <li><a href="#">Материалы</a></li>
@@ -266,9 +270,9 @@
   <section class="footer-bottom-bar">
     <p>2010–2019 Компания "Техномарт"<br> Все права защищены</p>
     <ul>
-      <li><a href="#"><img src="#" alt="VK"></a></li>
-      <li><a href="#"><img src="#" alt="FB"></a></li>
-      <li><a href="#"><img src="#" alt="INST"></a></li>
+      <li><a href="#"><img src="#" alt="VK Page" area-lable="Страница Вконтакте"></a></li>
+      <li><a href="#"><img src="#" alt="FB Page" area-lable="Страница Фейсбук"></a></li>
+      <li><a href="#"><img src="#" alt="INST Page" area-lable="Страница Истаграм"></a></li>
     </ul>
     <ul>
       <li>

@@ -5,6 +5,25 @@
     <title>Login</title>
 </head>
 <body>
-    
+    <section class="modal modal-login">
+        <h2>Личный кабинет</h2>
+        <p>Введите свой логин и пароль.</p>
+        <form class="login-form" method="POST" active="https://echo.htmlacademy.ru">
+          <p>
+            <lable class="visually-hidden" for="user-login">Логин</lable>
+              <input type="text" class="login-icon-user" name="login" id="user-login" placeholder="Login">
+          </p>
+          <p> 
+            <lable class="visually-hidden" for="user-password">Пароль</lable>
+              <input type="password" class="login-icon-password" name="password" id="user-password" placeholder="Password">
+          </p>
+          <p>
+            <lable><input type="checkbox" name="remember"> Запомнить меня</lable>
+            <a href="#" class="restore">Я забыл пароль!</a>
+            <button type="submit" class="button">Войти</button>
+          </p>
+    </form>
+    <button class="modal-close" type="button">Закрыть</button>
+</section>
 </body>
 </html>

@@ -4,15 +4,17 @@
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/slider_style.css">
   </head>
   <body>
 
 <header>
   <!--Section 1. Top Panel-->
   <section class="header-top-bar">
-      <a href="#" area-lable="Обновить страницу">ТЕХНОМАРТ</a>
-      <input type="search" name="search" placeholder="Поиск:" area-lable="Поиск">
+      <a class="header logo" href="index.html" area-lable="Обновить страницу">ТЕХНОМАРТ</a>
+      <form class="header-search">
+      <lable>Поиск<input type="search" name="search" placeholder="Поиск:"></lable>
+      <button type="submit">Искать</button>
+      </form>
       <p>Закладки: 0</p><!--Count Script-->
       <p>Корзина: 0</p><!--Count Script-->   
       <a href="#">Оформить заказ</a>
@@ -21,13 +23,13 @@
   <!--Section 2. Header Info-->
   <section class="header-info">
     <h1>Интернет-магазин строительных материалов и инструментов для ремонта</h1>
-      <div>
-        <p>+7(812)555-05-55</p>
+      <div class="header-contacts">
+        <span>+7(812)555-05-55</span>
         <abbr>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</abbr>
       </div>
-      <ul>
-        <li><button type="button">Войти</button></li>
-        <li><button type="button">Регистрация</button></li>
+      <ul class="header-buttons">
+        <li><a class="login-button" href="html/login.html">Войти</a></li>
+        <li><a class="signup-button" href="#">Регистрация</a></li>
       </ul>
   </section>
 
@@ -35,9 +37,9 @@
   <nav class="header-nav">
     <ul>
       <li><a href="index.html">Главная</a></li>
-      <li><a href="html/company.html">Компания</a></li>
+      <li><a href="#">Компания</a></li>
       <li><a href="html/catalog.html">Каталог</a></li>  
-      <li><a href="html/news.html">Новости</a></li>
+      <li><a href="#">Новости</a></li>
       <li><a href="#">Спецпредложения</a></li>
       <li><a href="#">Доставка</a></li>
       <li><a href="#">Контакты</a></li>
@@ -51,49 +53,30 @@
     <div class="materials">
       <h3>Материалы</h3>   
       <a href="#">НА ЛЮБОЙ ВКУС</a>
+      <img src="img/svg/menu/icon-1.svg"> 
     </div>
     <div class="toolth">
         <h3>Инструмент</h3> 
         <a href="#">НА ВСЕ СЛУЧАИ</a>
+        <img src="img/svg/menu/icon-2.svg"> 
     </div>
     <div class="equipment">
         <h3>Техника</h3> 
         <a href="#">ДЛЯ СТРОЙКИ</a>
+        <img src="img/svg/menu/icon-3.svg"> 
     </div>
 
-    <!--Slider-->
-    <div class="slider">
-      <div class="mySlides" style="background-image:url(img/jpg/slider_1.jpg); width:620px; height:266px">
-        <h3>Дрели</h3>
-        <p>Соседям на радость!</p>
-        <a href="catalog.html">Открыть каталог</a>
-      </div>
-      
-      <div class="mySlides" style="background-image:url(img/jpg/slider_2.jpg); width:620px; height:266px">
-        <h3>Перфораторы</h3>
-        <p>Настоящие мужские игрушки</p>
-        <a href="catalog.html">Открыть каталог</a>
-      </div>
-
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      </div>
-
-      <div style="text-align:center">
-        <span class="arrow left" onclick="currentSlide(1)"></span> 
-        <span class="arrow right" onclick="currentSlide(2)"></span> 
-      </div>
-
-      <script src="js/slider_js.js"></script>
-      <!--Slider-->
+<!--Slider Here please-->
 
     <div class="discounts">
         <h3>Скидки 50%</h3> 
         <a href="#">НА 350 ТОВАРОВ</a>
+        <img src="img/svg/menu/icon-4.svg"> 
     </div>
     <div class="delivery">
         <h3>Доставка</h3>
         <a href="#">БЕСПЛАТНО</a>
+        <img src="img/svg/menu/icon-5.svg"> 
     </div>
   </section>
 
@@ -113,8 +96,8 @@
         </div>
         <div class="item-info">
           <h3>Перфоротор BOSCH BFG 9000</h3>
-          <p>32500 P.</p>
-          <p>23500 P.</p>
+          <p class="price-old">32500 P.</p>
+          <p class="price-new">23500 P.</p>
         </div>
       </article>
     </li>
@@ -128,8 +111,8 @@
         </div>
         <div class="item-info">
           <h3>Перфоротор BOSCH BFG 3000</h3>
-          <p>22500 P.</p>
-          <p>15500 P.</p>
+          <p class="price-old">22500 P.</p>
+          <p class="price-new">15500 P.</p>
         </div>
       </article>
     </li>
@@ -143,8 +126,8 @@
           </div>
           <div class="item-info">
             <h3>Перфоротор BOSCH BFG 6000</h3>
-            <p>30500 P.</p>
-            <p>25500 P.</p>
+            <p class="price-old">30500 P.</p>
+            <p class="price-new">25500 P.</p>
           </div>
       </article>
     </li>  
@@ -158,7 +141,7 @@
           </div>
         <div class="item-info">
           <h3>Перфоротор BOSCH BFG 2000</h3>
-          <p>15500 P.</p>
+          <p class="price-new">15500 P.</p>
         </div>
         </article>
     </li>
@@ -233,7 +216,7 @@
     <div>
       <h2>КОНТАКТЫ</h2>
       <p>Вы можете забрать товар сами, заехав в наш офис:</p>
-      <img src="img/jpg/mini_map.jpg" alt="map">
+      <a href="html/map.html"><img src="img/jpg/mini_map.jpg" alt="map"></a>
       <a href="#" area-lable="Cвязатся с нами">Заблудились? Напишите нам!</a>
     </div>
   </section>
@@ -245,17 +228,19 @@
   <section class="footer-info">
     <div>
       <a href="#">ТЕХНОМАРТ</a>
-      <ul>
-          <li><a href="html/company.html">Компания</a></li>
-          <li><a href="html/news.html">Новости</a></li>
-          <li><a href="html/catalog.html">Каталог</a></li>
-          <li><a href="#">Доставка</a></li>
-          <li><a href="#">Контакты</a></li>
-       </ul>
+      <nav class="footer-nav">
+        <ul>
+            <li><a href="#">Компания</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="html/catalog.html">Каталог</a></li>
+            <li><a href="#">Доставка</a></li>
+            <li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
    </div>
    <div>
     <addr>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 <br> +7(812)555-05-55</addr>
-    <nav>
+    <nav class="footer-nav-catalog">
       <ul>
           <li><a href="#">Материалы</a></li>
           <li><a href="#">Техника</a></li>
@@ -284,7 +269,6 @@
         <a href="#">htmlacadely.ru</a></p>
       </li>
     </ul>
-
   </section>
 </footer>
 

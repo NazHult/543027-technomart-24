@@ -10,7 +10,9 @@
 <header>
   <!--Section 1. Top Panel-->
   <section class="header-top-bar">
+    <a href="index.html">
       <img src="img/svg/logo-technomart.svg" width="100" height="50" alt="Техномарт" style="background:palegreen;">
+    </a>
       <form class="header-search">
       <label>Поиск<input type="search" name="search" placeholder="Поиск:"></label>
       <button type="submit">Искать</button>
@@ -24,7 +26,7 @@
   <section class="header-info">
       <h1>Интернет-магазин строительных материалов и инструментов для ремонта</h1>
       <div class="header-contacts">
-        <span>+7(812)555-05-55</span>
+        <a href="tel:+7(812)555-05-55">+7(812)555-05-55</a>
         <address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
         </div>
         <div>
@@ -71,7 +73,7 @@
       <p>Фильтр:</p>
         <fieldset class="price">
             <legend>Цена:</legend>
-            <input type="range" min="0" max="30000" area-lable="Выбор диапазона цен">
+            <input type="range" min="0" max="30000">
             <p>
                 <label>Min<input type="number" name="min-price" value="0"></label>
                 <label>Max<input type="number" name="max-price" value="3000"></label>
@@ -94,7 +96,7 @@
               <li><label><input type="radio" name="radiogroup">Сетевые</label></li>
             </ul>
         </fieldset>
-            <input type="submit" name="Show" value="Показать" area-lable="Сортировать">
+            <input type="submit" name="Show" value="Показать">
     </form>
   </aside>
 
@@ -114,9 +116,8 @@
 
   <!--Section 7. Items-->
   <section class="items">
-      <ol>
+      <ul>
         <li>
-          <a href="#">
             <article class="item">
             <img src="img/jpg/perforator_2.jpg" alt="Перфоротор BOSCH BFG 9000" width="218" height="170">
             <div class="item-hover">
@@ -124,15 +125,13 @@
                 <button type="button">В Закладки</button>
             </div>
             <div>
-              <h2>Перфоротор BOSCH BFG 9000</h2>
+              <a href="#"><h2>Перфоротор BOSCH BFG 9000</h2></a>
               <p class="price-old">32500 P.</p>
               <p class="price-new">23500 P.</p>
           </div>
           </article>
-          </a>
         </li>
         <li>
-          <a href="#">
             <article class="item">
             <img src="img/jpg/perforator_3.jpg" alt="Перфоротор BOSCH BFG 3000" width="218" height="170">
             <div class="item-hover">
@@ -140,15 +139,13 @@
                 <button type="button">В Закладки</button>
             </div>
             <div>
-              <h2>Перфоротор BOSCH BFG 3000</h2>
+              <a href="#"><h2>Перфоротор BOSCH BFG 3000</h2></a>
               <p class="price-old">22500 P.</p>
               <p class="price-new">15500 P.</p>
             </div>
           </article>
-          </a>
         </li>
         <li>
-          <a href="#">
             <article class="item">
               <img src="img/jpg/perforator_4.jpg" alt="Перфоротор BOSCH BFG 6000" width="218" height="170">
               <div class="item-hover">
@@ -156,25 +153,24 @@
                 <button type="button">В Закладки</button>
               </div>
               <div>
-                <h2>Перфоротор BOSCH BFG 6000</h2>
+                <a href="#"><h2>Перфоротор BOSCH BFG 6000</h2></a>
                 <p class="price-old">30500 P.</p>
                 <p class="price-new">25500 P.</p>
               </div>
           </article>
-          </a>
         </li>  
-      </ol>
+      </ul>
       </section>
     
 <!--Section 8. Pages Pagination-->
 
   <section class="bottom-pagination">
-    <ol>
+    <ul>
       <li><a href="#" class="avtive-bottom-pagination">1</a></li>
       <li><a href="#">2</a></li>
       <li><a href="#">3</a></li>
       <li><a href="#">Cледущая</a></li>
-    </ol>
+    </ul>
   </section>
 
   <!--Section 9. Info-->
@@ -189,7 +185,9 @@
     <!--Section 9. Footer Info-->
     <section class="footer-info">
       <div>
-        <a href="#">ТЕХНОМАРТ</a>
+        <a href="index.html">
+          <img src="img/svg/logo-technomart.svg" width="100" height="50" alt="Техномарт" style="background:palegreen;">
+      </a>
         <nav class="footer-nav">
           <ul>
               <li><a href="#">Компания</a></li>
@@ -201,7 +199,10 @@
         </nav>
      </div>
      <div>
-      <address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 <br> +7(812)555-05-55</address>
+        <address>
+            г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 <br>
+            <a href="tel:+7(812)555-05-55">+7(812)555-05-55</a>
+          </address>
       <nav class="footer-nav-catalog">
         <ul>
             <li><a href="#">Материалы</a></li>
@@ -224,11 +225,15 @@
       <ul>
         <li>
           <p>Обратная связь: <br>
-          <a href="#">mail@htmlacadely.ru</a></p>
+            <a href="mail@htmlacademy.ru">mail@htmlacademy.ru</a>
         </li>
         <li>
-          <p>Разработано - <br>
-          <a href="#">htmlacadely.ru</a></p>
+          <div class="webcite-by">
+            <span>Разработано - </span>
+            <a class="" href="https://htmlacademy.ru/intensive/htmlcss" target="_blank">
+                htmlacadely.ru
+            </a>
+</div>
         </li>
       </ul>
     </section>

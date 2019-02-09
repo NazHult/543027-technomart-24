@@ -1,0 +1,139 @@
+/* Global */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cuprum', Arial, sans-serif;
+    font-size: 13px;
+    text-align: left;
+    line-height: 24px;
+    font-weight: 400;
+    color: black;}
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;}
+
+/*HEADER.Upper-Bar */
+/*HEADER.Header-Info */
+
+/*HEADER.Navigation */
+.header-nav a {
+    font-size: 17px;
+    line-height: 17px;
+    text-align: left;
+    color: #ffffff;}
+
+/*MAIN.Menu*/
+.menu-card-name {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: left;
+    color: #ffffff;}
+.menu-card-link {
+    font-size: 14px;
+    line-height: 17.5px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;}
+
+/*MAIN.Items-box */
+.item-box {
+    width: 220px;
+    height: 318px;
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;}
+.supplier-box {
+    width: 220px;
+    height: 145px;
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;}
+
+/*MAIN.Items-Price*/
+.price-old {
+    font-size: 17.5px;
+    font-weight: bold;
+    line-height: 17.5px;
+    text-align: center;
+    color: #a9a9a9;
+    text-decoration: line-through;}
+.price-new {
+    font-size: 17.5px;
+    font-weight: bold;
+    line-height: 17.5px;
+    text-align: center;
+    color: #ffffff;}
+
+/*MAIN.Items-Hover*/
+.buy-link {
+    font-size: 14px;
+    line-height: 17.5px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;}  
+.add-link {
+    font-size: 14px;
+    line-height: 17.5px;
+    text-align: center;
+    color: #32425c;
+    text-transform: uppercase;}
+.item-hover {
+    text-align: center;    }
+
+/*MAIN.Options & Bullets */
+.info-bullets {
+    font-size: 18px;
+    line-height: 20px;}
+.service-option {
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: left;
+    color: #32425c;}
+
+/*FOOTER. Navigation */
+/*FOOTER. Contacts */
+/*FOOTER. Links */
+
+
+/*Buttons */
+.button-link {
+    font-size: 14px;
+    line-height: 17.5px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;}
+
+/* Background */
+.header-nav {
+    width: 940px;
+    height: 60px;
+    box-shadow: inset 0px -5px 0 0 #293449;
+    background-color: #32425c;}
+.menu-card {
+    width: 300px;
+    height: 123px;
+    background-color: #dc91d8;}
+
+/*MAIN.Titles */
+.popular-title {
+    font-size: 30px;
+    line-height: 30px;
+    text-align: left;
+    color: #32425c;
+    text-transform: uppercase;}
+.item-title {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;}
+.service-option-title {
+    font-size: 36px;
+    line-height: 30px;
+    color: #32425c;}
+.info-title .service-title {
+    font-size: 30px;
+    line-height: 30px;}

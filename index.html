@@ -4,36 +4,37 @@
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
     <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:700" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
 
-<header>
+<header class="header">
   <!--Section 1. Top Panel-->
-  <section class="header-top-bar">
+  <section class="header-upper-bar">
     <a href="index.html">
       <img src="img/svg/logo-technomart.svg" width="100" height="50" alt="Техномарт" style="background:palegreen;">
     </a>
       <form class="header-search">
       <label>Поиск<input type="search" name="search" placeholder="Поиск:"></label>
-      <button type="submit">Искать</button>
+      <button type="submit" class="visually-hidden">Искать</button>
       </form>
-      <p>Закладки: 0</p><!--Count Script-->
-      <p>Корзина: 0</p><!--Count Script-->   
-      <a href="#">Оформить заказ</a>
+      <p class="counts">Закладки: 0</p><!--Count Script-->
+      <p class="counts">Корзина: 0</p><!--Count Script-->   
+      <a href="#" class="button-order">Оформить заказ</a>
   </section>
 
   <!--Section 2. Header Info-->
   <section class="header-info">
-    <h1>Интернет-магазин строительных материалов и инструментов для ремонта</h1>
+    <h1 class="general-title">Интернет-магазин<br> строительных материалов<br> и инструментов для ремонта</h1>
       <div class="header-contacts">
-        <a href="tel:+7(812)555-05-55">+7(812)555-05-55</a>
-        <address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
+        <a href="tel:+7(812)555-05-55" class="phone">+7 (812) 555-05-55</a>
+        <address class="address-header">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
       </div>
       <ul class="header-buttons">
-        <li><a class="login-button" href="html/login.html">Войти</a></li>
-        <li><a class="signup-button" href="#">Регистрация</a></li>
+        <li><a class="button-login" href="html/login.html">Войти</a></li>
+        <li><a class="button-login" href="#">Регистрация</a></li>
       </ul>
   </section>
 
@@ -97,7 +98,7 @@
 
   <!--Section 5. Items-->
   <section class="popular-items">
-  <div class="popular-items-header">
+  <div class="popular-header">
     <h2 class="popular-title">ПОПУЛЯРНЫЕ ТОВАРЫ:</h2>
     <a href="#" class="button-link">Все популярные товары</a>
   </div>
@@ -166,7 +167,7 @@
 
   <!--Section 6. Suppliers-grid-->
   <section class="popular-suppliers">
-  <div>
+  <div class="popular-header">
     <h2 class="popular-title">ПОПУЛЯРНЫЕ ПРОИЗВОДИТЕЛИ:</h2>
     <a href="#" class="button-link">Все производители</a>
   </div>
@@ -253,7 +254,7 @@
       </nav>
    </div>
    <div>
-    <address>
+    <address class="address">
       г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 <br>
       <a href="tel:+7(812)555-05-55">+7(812)555-05-55</a>
     </address>
@@ -272,22 +273,20 @@
   <section class="footer-bottom-bar">
     <p>2010–2019 Компания "Техномарт"<br> Все права защищены</p>
     <ul>
-      <li style="background:palegreen;"><a href="#"><img src="img/svg/icon-vk.svg" alt="Магазин Техномарт во Вконтакте"></a></li> 
-      <li style="background:palegreen;"><a href="#"><img src="img/svg/icon-fb.svg" alt="Магазин Техномарт во Facebook"></a></li> 
-      <li style="background:palegreen;"><a href="#"><img src="img/svg/icon-insta.svg" alt="Магазин Техномарт во Instagram"></a></li> 
+      <li><a href="#"><img src="img/svg/icon-vk.svg" alt="Магазин Техномарт во Вконтакте"></a></li> 
+      <li><a href="#"><img src="img/svg/icon-fb.svg" alt="Магазин Техномарт во Facebook"></a></li> 
+      <li><a href="#"><img src="img/svg/icon-insta.svg" alt="Магазин Техномарт во Instagram"></a></li> 
     </ul>
     <ul>
       <li>
-        <p>Обратная связь: <br>
+        <p>Обратная связь:</p> <br>
           <a href="mail@htmlacademy.ru">mail@htmlacademy.ru</a>
       </li>
       <li>
         <div class="webcite-by">
-          <span>Разработано - </span>
-          <a class="" href="https://htmlacademy.ru/intensive/htmlcss" target="_blank">
-              htmlacadely.ru
-          </a>
-</div>
+          <p>Разработано - </p>
+          <a class="" href="https://htmlacademy.ru/intensive/htmlcss" target="_blank">htmlacadely.ru</a>
+        </div>
       </li>
     </ul>
   </section>

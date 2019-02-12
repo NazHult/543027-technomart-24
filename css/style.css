@@ -156,9 +156,9 @@ li {
   font-size: 21px;
   line-height: 21px;
   text-align: left;
-  color: #000000;
-}
-/* Background */
+  color: #000000;}
+
+  /* Background */
 .header-nav {
     width: 940px;
     height: 60px;

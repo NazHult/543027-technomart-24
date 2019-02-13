@@ -1,4 +1,4 @@
-/* Global */
+/*Global*/
 body {
     margin: 0;
     padding: 0;
@@ -18,7 +18,98 @@ a {
     text-decoration: none;}
 li {
     list-style: none;}
-  
+ 
+/*Titles*/
+.popular-title {
+    font-size: 30px;
+    line-height: 30px;
+    text-align: left;
+    color: #32425c;
+    text-transform: uppercase;}
+.item-title {
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;}
+.service-option-title {
+    font-size: 36px;
+    line-height: 30px;
+    color: #32425c;}
+.info-title .service-title .catalog-bottom-note-title {
+    font-size: 30px;
+    line-height: 30px;}
+.general-title {
+    font-size: 16px;
+    font-style: italic;
+    line-height: 23px;
+    text-align: left;
+    color: #ee3643;}
+.catalog-general-title {
+    font-size: 30px;
+    line-height: 30px;
+    text-align: left;
+    color: #32425c;}
+
+/*Buttons*/
+.button-link {
+    font-size: 14px;
+    line-height: 17.5px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: #ee3643}
+.button-order {
+    font-size: 17px;
+    line-height: 18px;
+    text-align: left;
+    color: #ffffff;
+    background-color: #5fbb2d;}
+.button-login {
+  font-size: 21px;
+  line-height: 21px;
+  text-align: left;
+  color: #000000;
+  background-color: #ffffff;}
+
+/*Background*/
+.header-nav {
+    width: 940px;
+    height: 60px;
+    box-shadow: inset 0px -5px 0 0 #293449;
+    background-color: #32425c;}
+.menu-card {
+    width: 300px;
+    height: 123px;
+    background-color: #dc91d8;}
+.footer-bottom-bar {
+    width: auto;
+    height: 107px;
+    background-color: #293449;}
+.footer-info {
+    width: auto;
+    height: 300px;
+    background-color: #32425c;}
+.services {
+        width: auto;
+        height: 522px;
+        background-color: #f4f8fa;}
+.popular-header {
+        width: 940px;
+        height: 89px;
+        background-color: #f9f5f0;}
+.header {
+        width: auto;
+        height: 320px;
+        background-color: #f4f8fa;}   
+.header-upper-bar {
+    width: auto;
+    height: 42px;
+    background-color: #293449;}
+
+
+
 /*HEADER.Upper-Bar */
 .counts {
     font-size: 17px;
@@ -71,41 +162,39 @@ li {
     height: 145px;
     background-color: #ffffff;
     border: 1px solid #eaeaea;}
-
-/*MAIN.Items-Price*/
 .price-old {
-    font-size: 17.5px;
-    font-family: 'PT Sans', sans-serif;
-    font-weight: bold;
-    line-height: 17.5px;
-    text-align: center;
-    color: #a9a9a9;
-    text-decoration: line-through;}
+        font-size: 17.5px;
+        font-family: 'PT Sans', sans-serif;
+        font-weight: bold;
+        line-height: 17.5px;
+        text-align: center;
+        color: #a9a9a9;
+        text-decoration: line-through;}
 .price-new {
-    font-size: 17.5px;
-    font-family: 'PT Sans', sans-serif;
-    font-weight: bold;
-    line-height: 17.5px;
-    text-align: center;
-    color: #ffffff;}
-
-/*MAIN.Items-Hover*/
+        font-size: 17.5px;
+        font-family: 'PT Sans', sans-serif;
+        font-weight: bold;
+        line-height: 17.5px;
+        text-align: center;
+        color: #ffffff;}
 .buy-link {
-    font-size: 14px;
-    line-height: 17.5px;
-    text-align: center;
-    color: #ffffff;
-    text-transform: uppercase;}  
+            font-size: 14px;
+            line-height: 17.5px;
+            text-align: center;
+            color: #ffffff;
+            text-transform: uppercase;
+            box-shadow: inset 0px -3px 0 0 #367315;
+            background-color: #63a63e;}  
 .add-link {
-    font-size: 14px;
-    line-height: 17.5px;
-    text-align: center;
-    color: #32425c;
-    text-transform: uppercase;}
+            font-size: 14px;
+            line-height: 17.5px;
+            text-align: center;
+            color: #32425c;
+            text-transform: uppercase;}
 .item-hover {
-    text-align: center;    }
+            text-align: center;    }
 
-/*MAIN.Options & Bullets */
+/*MAIN.Service Info */
 .info-bullets {
     font-size: 18px;
     line-height: 20px;}
@@ -120,8 +209,7 @@ li {
     font-size: 13px;
     line-height: 24px;
     text-align: left;
-    color: #000000;
-  }
+    color: #000000;}
 
 /*FOOTER. Navigation */
 .footer-nav a {
@@ -149,91 +237,27 @@ li {
     font-size: 16px;
     text-align: left;}
 
-/*Buttons */
-.button-link {
-    font-size: 14px;
-    line-height: 17.5px;
-    text-align: center;
-    color: #ffffff;
-    text-transform: uppercase;}
-.button-order {
-    font-size: 17px;
-    line-height: 18px;
-    text-align: left;
-    color: #ffffff;}
-.button-login {
-  font-size: 21px;
-  line-height: 21px;
-  text-align: left;
-  color: #000000;}
-
-  /* Background */
-.header-nav {
-    width: 940px;
-    height: 60px;
-    box-shadow: inset 0px -5px 0 0 #293449;
-    background-color: #32425c;}
-.menu-card {
-    width: 300px;
-    height: 123px;
-    background-color: #dc91d8;}
-.footer-bottom-bar {
-    width: auto;
-    height: 107px;
-    background-color: #293449;}
-.footer-info {
-    width: auto;
-    height: 300px;
-    background-color: #32425c;}
-.services {
-        width: auto;
-        height: 522px;
-        background-color: #f4f8fa;}
-.popular-header {
-        width: 940px;
-        height: 89px;
-        background-color: #f9f5f0;}
-.header {
-        width: auto;
-        height: 320px;
-        background-color: #f4f8fa;}   
-.header-upper-bar {
-    width: auto;
-    height: 42px;
-    background-color: #293449;
-}
-/*MAIN.Titles */
-.popular-title {
-    font-size: 30px;
-    line-height: 30px;
-    text-align: left;
-    color: #32425c;
-    text-transform: uppercase;}
-.item-title {
-    font-size: 18px;
+/*FORMS.Search/Side Bar*/
+.search-bar a {
     font-family: 'PT Sans', sans-serif;
-    font-weight: bold;
-    line-height: 20px;
-    text-align: center;
-    color: #000000;}
-.service-option-title {
-    font-size: 36px;
-    line-height: 30px;
-    color: #32425c;}
-.info-title .service-title .catalog-bottom-note-title {
-    font-size: 30px;
-    line-height: 30px;}
-.general-title {
-    font-size: 16px;
-    font-style: italic;
-    line-height: 23px;
+    font-size: 14px;
+    line-height: 117.5px;
     text-align: left;
     color: #ee3643;}
-.catalog-general-title {
-    font-size: 30px;
-    line-height: 30px;
+.side-bar label {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
     text-align: left;
-    color: #32425c;}
+    color: #000000;
+    text-transform: uppercase;}
+
+/*FORMS.LogIn*/
+.modal-login label {
+    font-size: 17.5px;
+    line-height: 17.5px;
+    text-align: left;
+    color: #000000;}
 
 /*CATALOG. Pagination*/
 .upper-pagination a {

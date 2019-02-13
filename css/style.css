@@ -75,6 +75,7 @@ li {
 /*MAIN.Items-Price*/
 .price-old {
     font-size: 17.5px;
+    font-family: 'PT Sans', sans-serif;
     font-weight: bold;
     line-height: 17.5px;
     text-align: center;
@@ -82,6 +83,7 @@ li {
     text-decoration: line-through;}
 .price-new {
     font-size: 17.5px;
+    font-family: 'PT Sans', sans-serif;
     font-weight: bold;
     line-height: 17.5px;
     text-align: center;
@@ -113,6 +115,13 @@ li {
     line-height: 30px;
     text-align: left;
     color: #32425c;}
+.content {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+  }
 
 /*FOOTER. Navigation */
 .footer-nav a {

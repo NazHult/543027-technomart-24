@@ -186,7 +186,7 @@
   <!--Section 7. Services-->
 <section class="services">
   <h2 class="service-title">СЕРВИСЫ</h2>
-  <p>Хороший интернет-магазин отличается от плохого не только ценами!<br>
+  <p class="content">Хороший интернет-магазин отличается от плохого не только ценами!<br>
      Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
 
   <div>
@@ -199,15 +199,15 @@
     <ul>
       <li>
         <h3 class="service-option-title">Доставка</h3>
-        <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж!</p>
+        <p class="content">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж!</p>
       </li>
       <li>
         <h3 class="service-option-title">Гарантия</h3>
-        <p>Если купленный у нас товар поломается или заискрит, а также в случае пожара, спровоцированного его возгаранием,  вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый. Дом уж восстановите как-нибудь сами.</p>
+        <p class="content">Если купленный у нас товар поломается или заискрит, а также в случае пожара, спровоцированного его возгаранием,  вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый. Дом уж восстановите как-нибудь сами.</p>
       </li>
       <li>
         <h3 class="service-option-title">Кредит</h3>
-        <p>Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.</p>
+        <p class="content">Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.</p>
       </li>
     </ul>
   </div>
@@ -217,8 +217,8 @@
   <section class="contacts">
     <div>
       <h2 class="info-title">КОМПАНИЯ "ТЕХНОМАРТ"</h2>
-      <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
-      <p>Мы можем доставить ваш товар в самые отдаленные точки России! Техномарт работает со многими транспортными компаниями: </p>
+      <p class="content">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
+      <p class="content">Мы можем доставить ваш товар в самые отдаленные точки России! Техномарт работает со многими транспортными компаниями: </p>
       <ul>
         <li class="info-bullets">Деловые линии</li>
         <li class="info-bullets">Автотрейдинг</li>
@@ -228,7 +228,7 @@
     </div>
     <div>
       <h2 class="info-title">КОНТАКТЫ</h2>
-      <p>Вы можете забрать товар сами, заехав в наш офис:</p>
+      <p class="content">Вы можете забрать товар сами, заехав в наш офис:</p>
       <a href="html/map.html"><img src="img/jpg/mini_map.jpg" width="300" height="158" alt="Карта"></a>
       <a href="#" class="button-link">Заблудились? Напишите нам!</a>
     </div>
@@ -291,5 +291,37 @@
     </ul>
   </section>
 </footer>
+
+<!--Login-->
+
+<section class="modal modal-login">
+  <h2>Личный кабинет</h2>
+  <p>Введите свой логин и пароль.</p>
+  <form class="login-form" method="POST" action="https://echo.htmlacademy.ru">
+    <p>
+      <label class="visually-hidden" for="user-login">Логин</label>
+        <input type="text" class="login-icon-user" name="login" id="user-login" placeholder="Login">
+    </p>
+    <p> 
+      <label class="visually-hidden" for="user-password">Пароль</label>
+        <input type="password" class="login-icon-password" name="password" id="user-password" placeholder="Password">
+    </p>
+    <p>
+      <label><input type="checkbox" name="remember"> Запомнить меня</label>
+      <a href="#" class="restore">Я забыл пароль!</a>
+      <button type="submit" class="button">Войти</button>
+    </p>
+</form>
+<button class="modal-close" type="button">Закрыть</button>
+</section>
+
+<!--Map-->
+
+<section class="modal modal-map">
+  <h2 class="visually-hidden">Как до нас добраться</h2>
+  <img src="img/map.jpg" width="780" height="560" alt="Адрес офиса компании г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
+  <button class="modal-close" type="button">Закрыть</button>
+</section>
+
   </body>
 </html>

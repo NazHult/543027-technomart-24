@@ -23,7 +23,6 @@ li {
 .popular-title {
     font-size: 30px;
     line-height: 30px;
-    text-align: left;
     color: #32425c;
     text-transform: uppercase;}
 .item-title {
@@ -44,12 +43,10 @@ li {
     font-size: 16px;
     font-style: italic;
     line-height: 23px;
-    text-align: left;
     color: #ee3643;}
 .catalog-general-title {
     font-size: 30px;
     line-height: 30px;
-    text-align: left;
     color: #32425c;}
 
 /*Buttons*/
@@ -63,13 +60,11 @@ li {
 .button-order {
     font-size: 17px;
     line-height: 18px;
-    text-align: left;
     color: #ffffff;
     background-color: #5fbb2d;}
 .button-login {
   font-size: 21px;
   line-height: 21px;
-  text-align: left;
   color: #000000;
   background-color: #ffffff;}
 
@@ -79,10 +74,6 @@ li {
     height: 60px;
     box-shadow: inset 0px -5px 0 0 #293449;
     background-color: #32425c;}
-.menu-card {
-    width: 300px;
-    height: 123px;
-    background-color: #dc91d8;}
 .footer-bottom-bar {
     width: auto;
     height: 107px;
@@ -108,33 +99,38 @@ li {
     height: 42px;
     background-color: #293449;}
 
-
-
 /*HEADER.Upper-Bar */
 .counts {
     font-size: 17px;
     line-height: 18px;
-    text-align: left;
     color: #ffffff;}
+.logo {
+    box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
+    background-color: #ee3643;}
+.logo:hover {
+    background-color: #ca2c37;}
+.logo:focus {
+    background-color: #ee3643;}
+.logo:active {
+    background-color: #ba2732;}
 
 /*HEADER.Header-Info */
 .address-header {
   font-size: 14px;
   line-height: 24px;
   text-align: center;
-  color: #32425c;}
+  color: #32425c;
+  font-style: normal; }
 .phone { 
   font-size: 21px;
   line-height: 21px;
   letter-spacing: 0.42px;
-  text-align: left;
   color: #e9292a;}
 
 /*HEADER.Navigation */
 .header-nav a {
     font-size: 17px;
     line-height: 17px;
-    text-align: left;
     color: #ffffff;}
 
 /*MAIN.Menu*/
@@ -142,7 +138,6 @@ li {
     font-size: 24px;
     font-weight: bold;
     line-height: 30px;
-    text-align: left;
     color: #ffffff;}
 .menu-card-link {
     font-size: 14px;
@@ -150,7 +145,27 @@ li {
     text-align: center;
     color: #ffffff;
     text-transform: uppercase;}
-
+.menu-card-1 {
+    width: 300px;
+    height: 123px;
+    background-color: #ffbf47;}
+.menu-card-2 {
+    width: 300px;
+    height: 123px;
+    background-color: #3bbce3;}
+.menu-card-3 {
+    width: 300px;
+    height: 123px;
+    background-color: #dc91d8;}
+.menu-card-4 {
+    width: 300px;
+    height: 123px;
+    background-color: #8ed78f;}
+.menu-card-5 {
+    width: 300px;
+    height: 123px;
+    background-color: #ffc047;}
+   
 /*MAIN.Items-box */
 .item-box {
     width: 220px;
@@ -176,7 +191,8 @@ li {
         font-weight: bold;
         line-height: 17.5px;
         text-align: center;
-        color: #ffffff;}
+        color: #ffffff;
+        background-color: #ee3643;}
 .buy-link {
             font-size: 14px;
             line-height: 17.5px;
@@ -202,53 +218,45 @@ li {
     font-size: 21px;
     font-weight: bold;
     line-height: 30px;
-    text-align: left;
     color: #32425c;}
 .content {
     font-family: 'PT Sans', sans-serif;
     font-size: 13px;
     line-height: 24px;
-    text-align: left;
     color: #000000;}
 
 /*FOOTER. Navigation */
 .footer-nav a {
   font-size: 18px;
-  text-align: left;
   color: #f3f7f9;}
 .footer-nav-catalog a {
   font-size: 18px;
-  text-align: left;
   color: #ffd180;}
 
 /*FOOTER. Contacts */
 .address {
   font-size: 18px;
-  text-align: left;
-  color: #f3f7f9;}
+  color: #f3f7f9;
+  font-style: normal;}
 
 /*FOOTER. Bottom-bar */
 .footer-bottom-bar a {
     font-size: 16px;
-    text-align: left;
     color: #ffd180;}
 .footer-bottom-bar p {
     color: #ffffff;
-    font-size: 16px;
-    text-align: left;}
+    font-size: 16px;}
 
 /*FORMS.Search/Side Bar*/
 .search-bar a {
     font-family: 'PT Sans', sans-serif;
     font-size: 14px;
     line-height: 117.5px;
-    text-align: left;
     color: #ee3643;}
 .side-bar label {
     font-family: 'PT Sans', sans-serif;
     font-size: 15px;
     line-height: 20px;
-    text-align: left;
     color: #000000;
     text-transform: uppercase;}
 
@@ -256,7 +264,6 @@ li {
 .modal-login label {
     font-size: 17.5px;
     line-height: 17.5px;
-    text-align: left;
     color: #000000;}
 
 /*CATALOG. Pagination*/
@@ -264,7 +271,6 @@ li {
     font-family: 'PT Sans', sans-serif;
     font-size: 14px;
     line-height: 17.5px;
-    text-align: left;
     color: #000000;}
 .bottom-pagination a {
     font-family: 'PT Sans', sans-serif;

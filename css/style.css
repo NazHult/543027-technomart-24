@@ -145,6 +145,10 @@ li {
     text-align: center;
     color: #ffffff;
     text-transform: uppercase;}
+.menu-card-link:hover {}
+.menu-card-link:active {}
+.menu-card-link:focus {}
+                 
 .menu-card-1 {
     width: 300px;
     height: 123px;

@@ -1,13 +1,14 @@
 /*Global*/
 body {
-    margin: 0;
-    padding: 0;
     font-family: 'Cuprum', Arial, sans-serif;
     font-size: 13px;
     text-align: left;
     line-height: 24px;
     font-weight: 400;
-    color: black;}
+    color: black;
+
+    margin: 0;
+    padding: 0;}
 .visually-hidden {
     position: absolute;
     clip: rect(0 0 0 0);
@@ -36,37 +37,29 @@ li {
     font-size: 36px;
     line-height: 30px;
     color: #32425c;}
-.info-title .service-title .catalog-bottom-note-title {
+.info-title .service-title {
     font-size: 30px;
     line-height: 30px;}
-.general-title {
-    font-size: 16px;
-    font-style: italic;
-    line-height: 23px;
-    color: #ee3643;}
 .catalog-general-title {
     font-size: 30px;
     line-height: 30px;
     color: #32425c;}
 
 /*Buttons*/
-.button-link {
+.button-link { 
     font-size: 14px;
     line-height: 17.5px;
     text-align: center;
     color: #ffffff;
     text-transform: uppercase;
     background-color: #ee3643}
-.button-order {
-    font-size: 17px;
-    line-height: 18px;
-    color: #ffffff;
-    background-color: #5fbb2d;}
-.button-login {
-  font-size: 21px;
-  line-height: 21px;
-  color: #000000;
-  background-color: #ffffff;}
+.button-link:hover { 
+    background-color:#ca2c37;}
+.button-link:active { 
+    background-color:#ee3643;}
+.button-link:focus { 
+    background-color:#ba2732;}
+
 
 /*Background*/
 .header-nav {
@@ -91,20 +84,12 @@ li {
         height: 89px;
         background-color: #f9f5f0;}
 .header {
-        width: auto;
-        height: 320px;
         background-color: #f4f8fa;}   
-.header-upper-bar {
-    width: auto;
-    height: 42px;
-    background-color: #293449;}
+
 
 /*HEADER.Upper-Bar */
-.counts {
-    font-size: 17px;
-    line-height: 18px;
-    color: #ffffff;}
 .logo {
+    padding: 1px 40px;
     box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
     background-color: #ee3643;}
 .logo:hover {
@@ -113,25 +98,71 @@ li {
     background-color: #ee3643;}
 .logo:active {
     background-color: #ba2732;}
+.header-search {
+    display: inline-block;}
+.counts {
+    display: inline-block;
+    font-size: 17px;
+    line-height: 18px;
+    color: #ffffff;}
+
+.header-upper-bar {
+    width: auto;
+    height: 42px;
+    background-color: #293449;}
+.button-order {
+    display: inline-block;
+    font-size: 17px;
+    line-height: 18px;
+    color: #ffffff;
+    background-color: #5fbb2d;}
 
 /*HEADER.Header-Info */
-.address-header {
-  font-size: 14px;
-  line-height: 24px;
-  text-align: center;
-  color: #32425c;
-  font-style: normal; }
-.phone { 
-  font-size: 21px;
-  line-height: 21px;
-  letter-spacing: 0.42px;
-  color: #e9292a;}
+.general-title {
+    display:inline-block;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 23px;
+    color: #ee3643;
 
+    width:310px;
+    border: 1px solid red;}
+.header-contacts {
+    display:inline-block;
+    width:320px;
+    border: 1px solid red;}
+.header-buttons {
+    display:inline-block;
+    width:310px;
+    border: 1px solid red;}   
+
+.phone { 
+    font-size: 21px;
+    line-height: 21px;
+    letter-spacing: 0.42px;
+    color: #e9292a;}
+.address-header {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #32425c;
+    font-style: normal; }
+.button-login {
+    display:inline-block;
+    font-size: 21px;
+    line-height: 21px;
+    color: #000000;
+    background-color: #ffffff;}    
+    
 /*HEADER.Navigation */
 .header-nav a {
     font-size: 17px;
     line-height: 17px;
     color: #ffffff;}
+.header-nav li {
+    display:inline-block;
+    box-align: center;
+    padding: 10px 5px;}
 
 /*MAIN.Menu*/
 .menu-card-name {
@@ -148,7 +179,16 @@ li {
 .menu-card-link:hover {}
 .menu-card-link:active {}
 .menu-card-link:focus {}
-                 
+.slider-header  {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 36px;
+    color: #ffffff;}
+.slider-text {
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff; }
+
 .menu-card-1 {
     width: 300px;
     height: 123px;
@@ -212,7 +252,8 @@ li {
             color: #32425c;
             text-transform: uppercase;}
 .item-hover {
-            text-align: center;    }
+    display:none;        
+    text-align: center;}
 
 /*MAIN.Service Info */
 .info-bullets {
@@ -222,12 +263,23 @@ li {
     font-size: 21px;
     font-weight: bold;
     line-height: 30px;
+    background-color: #32425c;
+    color: #ffffff;}
+.service-option:hover {
+    background-color: #293449;
+    color: #ffffff;}
+.service-option:active {
+    background-color: #ffffff;
     color: #32425c;}
+.service-option:focus {
+    background-color: #32425c;
+    color: #ffffff;}
 .content {
     font-family: 'PT Sans', sans-serif;
     font-size: 13px;
     line-height: 24px;
     color: #000000;}
+
 
 /*FOOTER. Navigation */
 .footer-nav a {
@@ -246,7 +298,14 @@ li {
 /*FOOTER. Bottom-bar */
 .footer-bottom-bar a {
     font-size: 16px;
+    color: red;}
+.footer-bottom-bar a:hover {
+    color: red;}
+.footer-bottom-bar a:active {
+    opacity:0.5;}
+.footer-bottom-bar a:focus {
     color: #ffd180;}
+
 .footer-bottom-bar p {
     color: #ffffff;
     font-size: 16px;}
@@ -271,7 +330,7 @@ li {
     color: #000000;}
 
 /*CATALOG. Pagination*/
-.upper-pagination a {
+.upper-pagination a{
     font-family: 'PT Sans', sans-serif;
     font-size: 14px;
     line-height: 17.5px;
@@ -282,3 +341,10 @@ li {
     line-height: 17.5px;
     text-align: center;
     color: #000000;}
+
+/*CATALOG. Main*/
+
+.info {
+    background-color: #f2f6f8;}
+.catalog-general-title {
+    background-color: #f2f6f8;}

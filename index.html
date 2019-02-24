@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_position.css">
   </head>
   <body>
 
@@ -15,8 +16,8 @@
   <section class="header-upper-bar">
       <img src="img/svg/logo-technomart.svg" width="100" height="50" alt="Техномарт" class="logo">
       <form class="header-search">
-      <label>Поиск<input type="search" name="search" placeholder="Поиск:"></label>
-      <button type="submit" class="visually-hidden">Искать</button>
+      <label class="search">Поиск<input type="search" name="search" placeholder="Поиск:"></label>
+      <button type="submit" class="visually-hidden search">Искать</button>
       </form>
       <a herf="#" class="counts">Закладки: 0</a><!--Count Script-->
       <a herf="#" class="counts">Корзина: 0</a><!--Count Script-->   
@@ -67,17 +68,19 @@
         <a href="#" class="menu-card-link">ДЛЯ СТРОЙКИ</a> 
     </div>
 
+    <!--Slider-->
+
     <section class="slider">
       <figure>
-        <h2>Дрели</h2>
-        <p>Соседям на радость!</p>
-        <a href="#">Открыть Каталог</a>
+        <h2 class="slider-header">Дрели</h2>
+        <p class="slider-text">Соседям на радость!</p>
+        <a href="#" class="button-link">Открыть Каталог</a>
         <img src="img/jpg/slider_1.jpg" width="620" height="266" alt="Фоновая картинка про Дрели"> 
       </figure>
       <figure>
-        <h2>Перфороторы</h2>
-        <p>Настоящие мужские игрушки!</p>
-        <a href="#">Открыть Каталог</a>
+        <h2 class="slider-header">Перфороторы</h2>
+        <p class="slider-text">Настоящие мужские игрушки!</p>
+        <a href="#" class="button-link">Открыть Каталог</a>
         <img src="img/jpg/slider_2.jpg" width="620" height="266" alt="Фоновая картинка про Перфороторы">
       </figure>
       <button type="button" class="arrow-button-left">Стрелка в лево</button>
@@ -214,7 +217,7 @@
   <!--Section 8. Contacts-->
   <section class="contacts">
     <div>
-      <h2 class="info-title">КОМПАНИЯ "ТЕХНОМАРТ"</h2>
+      <h2 class="info-title">КОМПАНИЯ &#171;ТЕХНОМАРТ&#187;</h2>
       <p class="content">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
       <p class="content">Мы можем доставить ваш товар в самые отдаленные точки России! Техномарт работает со многими транспортными компаниями: </p>
       <ul>

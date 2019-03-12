@@ -22,8 +22,7 @@ a {
 .container {
     width: 940px;
     margin: 0 auto;
-    padding: 0 10px;
-    border: 2px solid black;} /*Border*/
+    padding: 0 10px;} /*Border*/
 
 /*Titles*/
 .popular-title {
@@ -334,6 +333,7 @@ a {
 .container-suppliers {
     width: 940px;
     margin: 0 auto;}
+
 .header-suppliers {
     background-color: #f9f5f0; }
 .suppliers-list {
@@ -345,44 +345,98 @@ a {
     list-style: none;}
 
 
-
-
-
 /*CONTINUE*/
 
 
-
-
-
-
-
 /*MAIN.Service Info */
-.info-bullets {
-    font-size: 18px;
-    line-height: 20px;}
-.service-option {
+.service {}
+.service-container {
+    width: 940px;
+    margin: 0 auto;}
+.service-title {
+    padding-top: 68px;}
+.content {
+        font-family: 'PT Sans', sans-serif;
+        font-size: 13px;
+        line-height: 24px;
+        color: #000000;}
+  
+.service-list {
+    display:inline-flex;
+    margin-top: 74px; }        
+.service-list-buttons {
+    width:240px;
+    margin:0;
+    padding:0;}
+.service-button {
     font-size: 21px;
+    padding: 21px 140px 20px 23px;
     font-weight: bold;
     line-height: 30px;
     background-color: #32425c;
     color: #ffffff;}
-.service-option:hover {
+.service-button:hover {
     background-color: #293449;
     color: #ffffff;}
-.service-option:active {
+.service-button:active {
     background-color: #ffffff;
     color: #32425c;}
-.service-option:focus {
+.service-button:focus {
     background-color: #32425c;
     color: #ffffff;}
-.content {
-    font-family: 'PT Sans', sans-serif;
-    font-size: 13px;
-    line-height: 24px;
-    color: #000000;}
 
+.service-list-options {
+    width: 275px;
+    margin: 0;
+    list-style: none;
+    padding-left: 80px;}
+.service-option-title {
+    margin:0;}
 
-/*FOOTER. Navigation */
+/*Contacts*/
+
+.contacts {
+    width: 940px;
+    margin: auto;
+    margin-bottom: 86px;
+    margin-top: 82px;
+    border: 1px solid black;}
+.info-container {
+    display:inline-flex;}
+
+.info-list {
+    width: 519px;
+    margin-right: 121px;}
+.info-bullets-list {
+    margin-bottom: 42px;}
+.info-bullets {  
+    font-size: 18px;
+    line-height: 43px;
+    margin:0;
+    list-style:none;
+    font-weight: bold;}
+
+.info-title {
+    font-size: 30px;
+    line-height: 30px;
+
+    margin-top:0;
+    margin-bottom: 39px;}    
+.info-map {
+    display: block;
+    margin-bottom: 40px;
+    margin-top: 36px;}
+
+.button-link {
+    display: inline-block;
+    padding:13px 61px;
+    text-align: center;
+    border-radius: 3px;}
+.button-link:active
+.button-link:focus
+.button-link:hover
+
+/*FOOTER. Navigation 
 .footer-nav a {
   font-size: 18px;
   color: #f3f7f9;}
@@ -390,13 +444,13 @@ a {
   font-size: 18px;
   color: #ffd180;}
 
-/*FOOTER. Contacts */
+/*FOOTER. Contacts 
 .address {
   font-size: 18px;
   color: #f3f7f9;
   font-style: normal;}
 
-/*FOOTER. Bottom-bar */
+/*FOOTER. Bottom-bar 
 .footer-bottom-bar a {
     font-size: 16px;
     color: red;}
@@ -411,7 +465,7 @@ a {
     color: #ffffff;
     font-size: 16px;}
 
-/*FORMS.Search/Side Bar*/
+/*FORMS.Search/Side Bar
 .search-bar a {
     font-family: 'PT Sans', sans-serif;
     font-size: 14px;
@@ -424,13 +478,13 @@ a {
     color: #000000;
     text-transform: uppercase;}
 
-/*FORMS.LogIn*/
+/*FORMS.LogIn
 .modal-login label {
     font-size: 17.5px;
     line-height: 17.5px;
     color: #000000;}
 
-/*CATALOG. Pagination*/
+/*CATALOG. Pagination
 .upper-pagination a{
     font-family: 'PT Sans', sans-serif;
     font-size: 14px;
@@ -443,7 +497,7 @@ a {
     text-align: center;
     color: #000000;}
 
-/*CATALOG. Main*/
+/*CATALOG. Main
 
 .info {
     background-color: #f2f6f8;}
